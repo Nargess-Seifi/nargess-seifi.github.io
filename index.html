@@ -1,471 +1,768 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Moderna Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Nargess Seifi</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
 
-  <!-- =======================================================
-  * Template Name: Moderna
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Updated: May 7 2024 with Bootstrap v5.3.3
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+
+    </script>
+
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- supplementary for fontawsome package -->
+    <link rel="stylesheet" href="./css/css/academicons.min.css" />
+
+
+
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-    
-  <meta HTTP-EQUIV="Content-Language" CONTENT="fa">
-    
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex justify-content-between align-items-center">
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Sharif Planner</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="active " href="index.html">خانه</a></li>
-          <li><a href="blog.html"> بلاگ ها</a></li>
-          <li><a href="services.html">ویژگی ها</a></li>
-          <li><a href="price.html">قیمت ها</a></li>
-          <li><a href="team.html">مشتریان</a></li>
-          
-    <!--      <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+            <div class="profile">
+                <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light"><a href="index.html">Nargess Seifi</a></h1>
+                <div class="social-links mt-3 text-center">
+                     <a href="https://github.com/Nargess-Seifi" class="twitter"><i class='bx bxl-github'></i></a> 
+                    <a href="mailto:nargessseifi@outlook.com" class="facebook"><i class='bx bxs-envelope'></i></a>
+        
+                    <!--  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+                    <a href="https://join.skype.com/invite/mybQgg2jCrQW" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="https://www.linkedin.com/in/helia-atarod-6ab98b222" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                    <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Research Projects</span></a></li>
+                    <li><a href="#portfolio" class="nav-link scrollto"><i class='bx bx-brain'></i> <span>Teachings</span></a></li>
+                    <li><a href="#services" class="nav-link scrollto"><i class='bx bx-crown'></i><span>Awards</span></a></li>
+                    <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
--->
-            <li><a href="about.html">درباره ما</a></li>
-          <li><a href="contact.html">ارتباط با ما</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">مدیریت پروژه، با یک حرکت!</h2>
-          <p class="animate__animated animate__fadeInUp">شریف پلنر؛ پلتفرم آنلاین مدیریت تیم، کنترل پروژه‌ها،
-پیگیری وظایف و پیشرفت کسب‌و‌کار!</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">اطلاعات بیشتر...</a>
+            </nav><!-- .nav-menu -->
         </div>
-      </div>
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">شریف پلنر</h2>
-          <p class="animate__animated animate__fadeInUp">مفتخریم که با محصولی دانش‌بنیان در کنار شما هستیم!</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">ورود</a>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Nargess Seifi</h1>
+            <p>My research interest is <span class="typed" data-typed-items="Machine Learning ,Robotics"></span></p>
         </div>
-      </div>
+    </section><!-- End Hero -->
 
-      <!-- Slide 3 -->
-              <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Sharif Planner</span></h2>
-          <p class="animate__animated animate__fadeInUp">Trusted by more than 152,700 organizations, companies and startups</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp"> sign up</a>
-        </div>
-      </div>
+    <main id="main">
 
-        
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>I am studying Computer Science at IUST, Tehran, Iran. My main research interests are Combinatorial Optimization, Metaheuristic Searches, Dynamic Programming, and Machine Learning Algorithms, along with their real-world applications! </p>
 
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
+                </div>
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 
-    </div>
-  </section><!-- End Hero -->
 
-  <main id="main">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27 March 2002</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Bachelor:</strong> <span> Iran University of Science and Technology</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Diploma:</strong> <span>Farzanegan 6
+                                            <div class="popup" onclick="myFunction()">(NODET)<span class="popuptext" id="myPopup">National Organization for Development of Exceptional Talents</span>
+                                            </div>
+                                        </span></li>
+                                </ul>
+                            </div>
 
-    <!-- ======= Services Section ======= -->
-    <section class="services">
-      <div class="container">
+                            <div class="col-lg-5">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tehran, Iran</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Bachelor GPA:</strong> <span> 3.7/4</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Diploma GPA:</strong> <span> 19.39/20 (Rank 1)</span></li>
+                                </ul>
+                            </div>
+                        </div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">شبکه اجتماعی</a></h4>
-              <p class="description">ارتباط آنلاین با همکاران در قالب چت شخصی، گروه گفت‌و‌گو و کانال
-|برگزاری جلسه آنلاین درون‌تیمی
 
-|ارتباط با دستیار هوشمند| 
+                        <hr>
 
-جایگزین تلگرام (Telegram) | واتس‌اپ (WhatsApp)</p> 
-              
-              </div>
-          </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">کنترل وظایف</a></h4>
-              <p class="description"> تعریف وظایف و تعیین زمان‌بندی برای کار‌ها |
-تعریف وظیفه برای یک یا چند نفر و مشخص کردن تاییدکننده‌ی وظیفه
-                |
-پیگیری دقیق و گزارش منظم وظایف</p>
+
+                        <p>
+                            I also have a fascination for combinatorics and Robotics in general, which has motivated me to participate in informatics olympiad and several Robotics competitions. Besides my research and academic life, I enjoy playing guitar and photography.
+                        </p>
+                    </div>
+                </div>
+
             </div>
-          </div>
+        </section><!-- End About Section -->
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">مانیتورینگ پروژه و اعضا</a></h4>
-              <p class="description">در لحظه از وضعیت پیشرفت تیم خود مطلع شوید|
-مشاهده وضعیت کلی کسب‌و‌کار
-                |
-            بررسی جداگانه هر یک از اعضا
-          |   
-             جایگزین ترلو (Trello)   </p>
+        <!-- ======= Facts Section ======= -->
+        <section id="facts" class="facts">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Facts</h2>
+                    <!--  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+                </div>
+
+                <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                        <div class="count-box">
+                            <i class="bi bi-journal-code"></i><span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Robotic Competitions</strong> joined as Technical committee/participant</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="count-box">
+                            <i class="bi bi-award"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Projects</strong> in the field of X and Y</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="count-box">
+                            <i class="bi bi-person-video3"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="2236" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Hours Of Teaching</strong> informatics olympiad in top high schools of Iran.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                        <div class="count-box">
+                            <i class="bi bi-bug"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Courses of TA Experience</strong> engaged in optimization and programming practices.</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-          </div>
+        </section><!-- End Facts Section -->
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">مدیریت مشتریان</a></h4>
-              <p class="description">ثبت تماس‌ها، اسناد مالی و صورت‌جلسات مرتبط با هر مشتری
-                |
-             ثبت سرنخ‌ها و فرصت‌های فروش مرتبط با مشتری
-                |
-             طبقه‌بندی پرونده‌ها با برچسب و جست‌و‌جو با فیلتر‌های متنوع
-                |
-             جایگزین HubSpot    </p>
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Skills</h2>
+
+                </div>
+
+
+
+                <section id="" class="portfolio section-bg pt-0">
+                    <div class="container">
+
+                        <div class="row" data-aos="fade-up">
+                            <div class="col-lg-12 d-flex justify-content-center">
+                                <ul id="portfolio-flters">
+                                    <li data-filter="*" class="filter-active">All</li>
+                                    <li data-filter=".filter-app">programming languages &amp; frameworks</li>
+                                    <li data-filter=".filter-web">Technologies</li>
+                                    <li data-filter=".filter-card">Design</li>
+                                    <li data-filter=".filter-card-doc">Document Creation</li>
+                                  <!-- <li data-filter=".filter-card-lang">Languages</li> -->
+
+
+
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+                                <h4><img class="" src="assets/img/logos/programminglanguagesandframwork/python.png" width="" height="25" /> Python libraries </h4>
+                            </div>
+                            <!-- Python libraries items -->
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+                                <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+
+
+                                    <div class="column" style="text-align:center; align-items:center; display:flex; flex-wrap:wrap; width: 90%; justify-content:space-between">
+
+                                        <div class="placeholder1" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/pytorch.png" width="" height="40" />
+                                            <p>PyTorch</p>
+                                        </div>
+                                        <div class="placeholder2" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/tensorflow.png" width="" height="40" />
+                                            <p>Tensorflow</p>
+                                        </div>
+                                        <div class="placeholder3" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/numpy.png" width="" height="40" />
+                                            <p>NumPy</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/Pandas.png" width="" height="40" />
+                                            <p>Pandas</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/Scikit_learn.png" width="" height="40" />
+                                            <p>Scikit_learn</p>
+                                        </div>
+
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/stanza.png" width="" height="40" />
+                                            <p>Stanza</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/nltk.png" width="" height="40" />
+                                            <p>NLTK</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/SpaCy_logo.png" width="" height="40" />
+                                            <p>SpaCy</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+                                <h4>Other frameworks and languages</h4>
+                            </div>
+                            <!-- Other frameworks and languages items -->
+                           
+
+
+
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+                                <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+
+
+                                    <div class="column" style="text-align:center; align-items:center; display:flex; flex-wrap:wrap; width: 35%; justify-content:space-between">
+
+                                        <div class="placeholder1" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/logo_square.png" width="" height="40" />
+                                            <p>GAMS</p>
+                                        </div>
+                                        <div class="placeholder2" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/Jupyter.png" width="" height="40" />
+                                            <p>Jupyter</p>
+                                        </div>
+                                        <div class="placeholder3" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/HTML52.png" width="" height="40" />
+                                            <p>HTML5</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/programminglanguagesandframwork/CSS.png" width="" height="40" />
+                                            <p>CSS</p>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Math olympiad items -->
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-web">
+                                <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+
+                                    <div class="column" style="text-align:center; align-items:center; display:flex; flex-wrap:wrap; width: 45%; justify-content:space-between">
+
+                                        <div class="placeholder1" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/statisticalandinformationsystemtools/gitlab-logo-png-transparent.png" width="" height="40" />
+                                            <p>GitLab</p>
+                                        </div>
+                                        <div class="placeholder2" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/statisticalandinformationsystemtools/minitab2.jpg" width="" height="40" />
+                                            <p>Minitab</p>
+                                        </div>
+                                        <div class="placeholder3" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/statisticalandinformationsystemtools/Power_BI.png" width="" height="40" />
+                                            <p>Power BI</p>
+                                        </div>
+
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/statisticalandinformationsystemtools/tableau.jpg" width="" height="40" />
+                                            <p>Tableau</p>
+                                        </div>
+                                        <div class="placeholder4" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/statisticalandinformationsystemtools/vecteezy_ms-office-logo-on-transparent-background_14018577.jpg" width="" height="40" />
+                                            <p>Microsoft Office</p>
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <!-- others items -->
+                            <div class="col-lg-12 col-md-12 portfolio-item filter-card">
+                                <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+
+                                    <div class="column" style="text-align:center; align-items:center; display:flex; flex-wrap:wrap; width: 25%; justify-content:space-between">
+
+                                        <div class="placeholder1" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/designandgraphicaltools/Figma-logo.png" width="" height="40" />
+                                            <p>Figma</p>
+                                        </div>
+                                        <div class="placeholder2" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/designandgraphicaltools/solidworks.jpg" width="" height="40" />
+                                            <p>SolidWorks</p>
+                                        </div>
+                                        <div class="placeholder3" style="inline-block;">
+                                            <img class="mb-2" src="assets/img/logos/designandgraphicaltools/Autocad_(12).png" width="" height="40" />
+                                            <p>AutoCAD</p>
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
             </div>
-          </div>
+        </section><!-- End Skills Section -->
 
-        </div>
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
 
-      </div>
-    </section><!-- End Services Section -->
+                <div class="section-title">
+                    <h2>Research Projects</h2>
+                    <!--   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.</p> -->
+                </div>
 
-    <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6 video-box">
-            <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=xky48zyL9iA" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
+                <div class="col-lg-12" data-aos="fade-up">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+                    <h3 class="resume-title">Hybrid Remote-Autonomous Robot Using SLAM and April Tag Detection</h3>
+                    <div class="resume-item">
+                        <h4> Python, Ubuntu, C++, OpenCV<h5> May–Sep. 2024</h5>
+                        </h4>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">شخصی سازی برنامه دانشگاهی</a></h4>
-              <p class="description">علاوه بر امکان دسترسی بر تمامی رویداد های دانشگاه صنعتی شریف ، در شریف پلنر امکان شخصی سازی کلندر خود بر اساس تکالیف و امتحاناتان وجود دارد!</p>
+                        
+                        <ul>
+                            <li>Developed a mobile robot with Python scripts for April Tag detection, ESP32 communication, and autonomous navigation using a nonlinear transformation and PID controller.</li>
+                            <li> Designed a SLAM-based control system with a web interface for remote control and real-time data exchange via HTTPrequests
+                            </li></ul>
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-12" data-aos="fade-up">
+
+                    <h3 class="resume-title">Robotic Maze Solver</h3>
+                    <div class="resume-item">
+                        <h4>C, C♯, Mplab, Altium Designer, SolidWorks
+                            <h5> 2017– 2018</h5>
+                        </h4>
+
+                        
+                        <p> Designed and built a robot in a team of two members, that can autonomously navigate a maze and perform multiple tasks; such as heat and visual victim detection and dropping rescue kits for them. After the robot searches the whole maze, it returns to the starting point by the shortest path possible.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-12" data-aos="fade-up">
+
+                    <h3 class="resume-title"> SCD: Single Character Detection</h3>
+                    <div class="resume-item">
+                        <h4>Python, MicropPython, openCV
+                            <h5> 2017– 2018</h5>
+                        </h4>
+
+                        
+                        <p>  Designed a program in Python/MicroPython for a maze solver robot, using the OpenMV module, to detect single characters while in the move.</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section><!-- End Resume Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2 class="mb-0 ">Teachings</h2>
+                    
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters2">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app2">TA experience</li>
+                            <li data-filter=".filter-web2">Informatics and Math Olympiad</li>
+                            <li data-filter=".filter-card2">Robotics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container2" data-aos="fade-up" data-aos-delay="100">
+
+                    <!-- TA items -->
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-app2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">TA:  The Theory of Languages and Computation 2<div class='medal-date'>
+                                    Fall 2023</div>
+                            </h4>
+                            <p class="description">lectured by  Prof. Larijani. My obligation was to :</p>
+
+
+                            <ul>
+                                <li> design and define their a modeling project.</li>
+                                <li> supervise and evaluate their their model's accuracy. </li>
+                                <li>supervise and evaluate their Python codes intended to solve the problem.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-app2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">TA:  The Theory of Languages and Computation 1 <div class='medal-date'>
+                                    Spring 2022</div>
+                            </h4>
+                            <p class="description">
+                                lectured by  Prof. Larijani. My obligation was to design and define their course project, as well as supervise and evaluate their project.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-app2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">TA: Introduction to Combinatorics <div class='medal-date'>
+                                    Fall 2022</div>
+                            </h4>
+                            <p class="description">
+                                lectured by Prof. NadjafiKhah. My obligation was to design and define their course project, as well as supervise and evaluate their project.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-app2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">TA: Introduction to Matrices and Linear Algebra<div class='medal-date'>
+                                    Fall 2022</div>
+                            </h4>
+                            <p class="description">
+                                Lectured by Prof. NadjafiKhah.</p>
+                        </div>
+                    </div>
+
+                    <!-- Math olympiad items -->
+
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-web2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                Iranian young scholar club (IYSC)<div class='medal-date'>
+                                    2023</div>
+                            </h4>
+                            <p class="description">
+                                I was obligated to teach Geometry in summer camp. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-web2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                Farzanegan 1 High School (NODET)<div class='medal-date'>
+                                    2021-2022</div>
+                            </h4>
+                            <p class="description">
+                                Combinatorics Instructor</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-web2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                Olympiad Club (NODET)<div class='medal-date'>
+                                    2022 - 2023</div>
+                            </h4>
+                            <p class="description">
+                                Consulting and teaching combinatorics and graph theory to 11th and 10th students.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-web2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">Farzanegan 2 High School (NODET)<div class='medal-date'>
+                                    2022</div>
+                            </h4>
+                            <p class="description">
+                                I was  head of Informatics Department and also responsible for Consulting and teaching combinatorics and graph theory to 11th and 10th students.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-web2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title"> Iranian Combinatorics Olympiad<div class='medal-date'>
+                                    2021-2022</div>
+                            </h4>
+                            <p class="description">
+                                Operational Committee</p>
+                        </div>
+                    </div>
+
+                
+
+                    <!-- others items -->
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-card2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                Canada FIRA RoboWorld Cup Open <div class='medal-date'>
+                                    May 2024</div>
+                            </h4>
+                            <p class="description">
+                                &nbsp &nbsp - SmartHome league ....Technical Committee</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-card2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                 Iran National RoboCup (IranOpen)<div class='medal-date'>
+                                    May2021, May 2022</div>
+                            </h4>
+                            <p class="description"></p>
+                            <ul>
+                                <li> Mission Imposible league</li>
+                                <li>Technical Committee</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 portfolio-item filter-card2">
+                        <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                            <h4 class="title">
+                                  Iran FIRA RoboWorld Cup Open<div class='medal-date'>
+                                   Nov. 2023 </div>
+                            </h4>
+                            <p class="description"></p>
+                            <ul>
+                                
+                                <li>Technical Committee</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
             </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">شخصی سازی برنامه های خانوادگی و دورهمی</a></h4>
-              <p class="description">در شریف پلنر می توانید علاوه بر برنامه های رسمی درسی تون، درباره دورهمی های دانشگاهی و خانوادگیتون، مناسبتها، تولدها و ... نیز با دوستان خود مشورت و برنامه ریزی کنید.  </p>
+
+        </section><!-- End Portfolio Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Awards</h2>
+
+                </div>
+                <div class="column">
+                    <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bi bi-trophy"></i></div>
+                        <h4 class="title"><a href="">RoboCupAsia-Pacific 2018, Rescue Maze League</a>
+                            <div class='medal-date'>Dec. 2018</div>
+                        </h4>
+                        <p class="description"> Certificate of 1st place</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bi bi-award"></i></div>
+                        <h4 class="title"><a href="">RoboCupIran Open, Rescue Maze League</a>
+                            <div class='medal-date'>Apr. 2018</div>
+                        </h4>
+                        <p class="description"> Certificate of 2nd place</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bi bi-trophy"></i></div>
+                        <h4 class="title"><a href="">RoboCupAsia-Pacific 2018, Rescue Maze League</a>
+                            <div class='medal-date'>Dec. 2018</div>
+                        </h4>
+                        <p class="description"> &nbsp Certificate of best team technical challenge</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bi bi-award"></i></div>
+                        <h4 class="title"><a href="">RoboCupAsia-Pacific 2018, Rescue Maze League</a>
+                            <div class='medal-date'>Dec. 2018</div>
+                        </h4>
+                        <p class="description"> &nbsp  Certificate of best hardware solution</p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bi bi-trophy"></i></div>
+                        <h4 class="title"><a href="">RoboCupIran Open, Rescue Maze League</a>
+                            <div class='medal-date'>Apr. 2018</div>
+                        
+                        </h4>
+                        <p class="description"> &nbsp   Certificate of best presentation</p>
+                    </div>
+
+                   
+
+                </div>
+
             </div>
+        </section><!-- End Services Section -->
 
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End Why Us Section -->
+    </main><!-- End #main -->
 
-    <!-- ======= Features Section ======= -->
-    <section class="features">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Features</h2>
-          <h2>مدیریت پروژه‌ها، به شکلی که دوست دارید!</h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="assets/img/%D9%84%DB%8C%D8%B3%D8%AA%20%D9%88%D8%B8%D8%A7%DB%8C%D9%81%20%D9%BE%D8%B1%D9%88%DA%98%D9%87.png" class="img-fluid" alt="لیست وظایف پروژه">
-          </div>
-          <div class="col-md-7 pt-4">
-            <h3>لیست وظایف پروژه</h3>
-            <p>
-              وظایف هر پروژه را به صورت لیست، به تفکیک روز و زمان یادآوری مشاهده کنید و برچسب‌ها، مهلت انجام، توضیحات و چک‌لیست هر وظیفه را بر روی آن ببینید.
-            </p>
-           
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/%DA%AF%D8%A7%D9%86%D8%AA%20%DA%86%D8%A7%D8%B1%D8%AA.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>گانت چارت</h3>
-            <p >
-              با استفاده از گانت چارت، کلیه وظایف را در یک روند زمانی ببینید، اولویت‌ها و وابستگی میان وظایف را مشخص کنید و با تعیین زمان شروع و پایان وظیفه‌ها،
-آن‌ها‌ را بهتر مدیریت نمایید.
-            </p>
-      
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="assets/img/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%DA%A9%D8%B1%D8%A7%D9%85%20%D9%88%20%DA%A9%D8%A7%D9%86%D8%A8%D8%A7%D9%86.png" class="img-fluid" alt="مدیریت به روش اسکرام و کانبان">
-          </div>
-          <div class="col-md-7 pt-5">
-            <h3>مدیریت به روش اسکرام و کانبان</h3>
-            <p>برای نمایش و مدیریت بهتر وظایف، ستون‌هایی در بورد ایجاد کنید و وظایف پروژه را در این ستون‌ها بچینید.</p>
-            
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/%D8%AA%D9%82%D9%88%DB%8C%D9%85%20%D9%BE%D8%B1%D9%88%DA%98%D9%87.png" class="img-fluid" alt="تقویم پروژه">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>تقویم پروژه</h3>
-            <p>
-             وظایف پروژه را در یک نگاه مشاهده کنید و برنامه‌ریزی دقیق‌تری برای روز، هفته و ماه انجام دهید.  </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-    <!-- ======= Pricing Section ======= -->
-    <section class="pricing section-bg" data-aos="fade-up">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>قیمت ها</h2>
-          <p>اگر شرکت یا سازمانی هستید که نیاز دارید "نرم‌افزار میزیتو بر روی سرورهای اختصاصی شما" نصب شود،
-از طریق لینک زیر درخواست خود را ثبت کنید تا کارشناسان میزیتو در اسرع وقت جهت مشاوره با شما تماس بگیرند.</p>
-            <br>
-            <a href="#" class="get-started-btn">درخواست نصب اختصاصی</a>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 box">
-            <h3>رایگان</h3>
-            <h4>   0 <h6>تومان</h6> </h4>
-              <span>یک هفته</span>
-            <ul style=" justify-content: flex-end;text-align: right;">
-              <li  ><i class="bx bx-check"></i> پروژه نامحدود</li>
-              <li><i class="bx bx-check"></i> وظایف نامحدود</li>
-              <li><i class="bx bx-check"></i> کانال و گروه گفتگوی نامحدود</li>
-              <li><i class="bx bx-check"></i>نمایش پروژه بر اساس بورد و کانبان</li>
-                <li><i class="bx bx-check"></i>نمایش پروژه بر اساس لیست وظایف</li>
-                <li><i class="bx bx-check"></i> کانال و مانیتورینگ تیم و پروژه‌ها</li>
-              <li class="na"><i class="bx bx-x"></i> <span>نرم‌افزار Android و iOS</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>نمایش پروژه بر اساس تقویم شمسی</span></li>
-            </ul>
-            <a href="#" class="get-started-btn">شروع کنید!</a>
-          </div>
-
-          <div class="col-lg-4 box featured">
-            
-              <h3>پلن پیشرفته(سازمانی)</h3>
-            <h4>   1.700.000 <h6>تومان</h6> </h4>
-              <span>یک ماهه</span>
-            <h2></h2>
-              <p>ویژگی‌های پلن پایه + ویژگی‌های اختصاصی پلن پیشرفته:</p>
-            <ul style=" justify-content: flex-end;text-align: right;">
-              <li  ><i class="bx bx-check"></i> مدیریت پروژه با گانت چارت</li>
-              <li><i class="bx bx-check"></i> انتقال (Import) پروژه‌ها از ترلو</li>
-              <li><i class="bx bx-check"></i> کانال و گروه انتقال (Import) وظایف و مشتریان از فایل Excel</li>
-              <li><i class="bx bx-check"></i>نمایش پروژه برثبت اسناد مالی و فرصت‌های (سرنخ) فروش</li>
-                <li><i class="bx bx-check"></i>مانیتورینگ مالی و پیش‌بینی درآمد</li>
-                <li><i class="bx bx-check"></i>جلسه آنلاین و ویدیو کنفرانس</li>
-                <li><i class="bx bx-check"></i>کاربر مهمان</li>
-                <li><i class="bx bx-check"></i>تعریف سمت سازمانی برای افراد</li>
-                <li><i class="bx bx-check"></i>جلسه آنلاین مدیریت جلسات و ثبت مصوبات</li>
-
-            </ul>
-            <a href="#" class="get-started-btn">شروع کنید!</a>
-          </div>
-
-          <div class="col-lg-4 box">
-             <h3>پلن پایه (تجاری)</h3>
-            <h4>   700.000 <h6>تومان</h6> </h4>
-              <span>یک ماهه</span>
-            <ul style=" justify-content: flex-end;text-align: right;">
-              <li  ><i class="bx bx-check"></i> پروژه نامحدود</li>
-              <li><i class="bx bx-check"></i> وظایف نامحدود</li>
-              <li><i class="bx bx-check"></i> کانال و گروه گفتگوی نامحدود</li>
-              <li><i class="bx bx-check"></i>نمایش پروژه بر اساس بورد و کانبان</li>
-                <li><i class="bx bx-check"></i>نمایش پروژه بر اساس تقویم شمسی</li>
-                <li><i class="bx bx-check"></i>مانیتورینگ تیم و پروژه‌ها</li>
-                <li><i class="bx bx-check"></i>مدیریت مشتریان (CRM)
-</li>
-                <li><i class="bx bx-check"></i>چک‌لیست شخصی</li>
-                <li><i class="bx bx-check"></i>نامه‌نگاری و مکاتبات سازمانی</li>
-                <li><i class="bx bx-check"></i>نامه‌نگاری نرم‌افزار Android و iOS</li>
-             
-             
-            </ul>
-            <a href="#" class="get-started-btn">شروع کنید!</a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h5>تمامی امکانات شریف پلنر به صورت رایگان در دسترس شماست!</h5>
-            <p>تنها در چند دقیقه می‌توانید محیط کاربری خود را ایجاد کنید.
-              کافیست ایمیل خود را در اختیار ما قرار دهید. </p>
-          </div>
-          <div class="col-lg-6">
-              
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Get Started">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>بخش ها</h4>
-            <ul>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">وبلاگ</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">درباره ما</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">خدمات ما</a></li>
-             
-              <li><i class="bx bx-chevron-left"></i> <a href="#">قیمت ها</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>وبلاگ</h4>
-            <ul>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">اسکرام (Scrum) چیست؟</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">نحوه مدیریت ارتباط با مشتری (CRM)</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">آشنایی با مدیریت پروژه و کنترل وظایف</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">آشنایی با برند و آموزش برندسازی</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">نمودار گانت و کاربردها</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>ارتباط با ما</h4>
-            <p>
-             
-              مشهد، خیابان راهنمایی، برج سلمان، طبقه ۷، واحد ۱۰<br>
-               <br>
-              <strong>Phone:</strong> +۰۵۱-۳۸۴۸۱۸۹۴<br>
-              <strong>Email:</strong> heliaatarod@gmail.com<br>
-            </p>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>درباره Sharif Planner</h4>
-               <ul>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">شروع کار با شریف پلنر</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">بخش پروژه ها</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">بخش چت و گفت و گو</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">بخش وظایف</a></li>
-              <li><i class="bx bx-chevron-left"></i> <a href="#">بخش نامه ها</a></li>
-            </ul>
-          
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="telegram"><i class="bx bxl-telegram"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                Age for <strong><span>T-shape</span></strong> personalities!
             </div>
-          </div>
-
+            <!--   <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+            <!--     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
         </div>
-      </div>
-    </div>
+    </footer><!-- End  Footer -->
 
-  
-  </footer><!-- End Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
