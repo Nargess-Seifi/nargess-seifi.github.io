@@ -262,6 +262,16 @@ background-repeat: no-repeat;
   min-width: 300px;
 }
 
+@media only screen and (max-width: 1200px){
+  #hero {
+    width: 100%;
+    height: 100vh ;
+    background: url("../img/pic1_bg.jpeg") top;
+    background-size:  100%  ;
+  background-repeat: no-repeat;
+  }
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
