@@ -1191,7 +1191,7 @@ section,
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1203,11 +1203,11 @@ section,
   background: #040b14;
 }
 
-#footer .copyright {
+footer .copyright {
   text-align: center;
 }
 
-#footer .credits {
+footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
@@ -1241,14 +1241,14 @@ section,
   main {
     grid-column: 2 / 3; /* Main content in the second column */
     width: 100%; /* Fills remaining space */
-    margin: 20px; /* Add margin around the content */
+    margin: ; /* Add margin around the content */
     box-sizing: border-box; /* Ensure padding and borders are included in the width */
   }
 
-  #footer {
-    grid-column: 2 / 3; /* Footer aligns with the main content */
-    width: 100%; /* Fills remaining space */
-    margin: 20px; /* Add margin to footer */
+  .footer {
+    grid-column: 1 / 2; 
+    
+    margin: 20px; 
     box-sizing: border-box;
   }
 }
@@ -1259,9 +1259,9 @@ section,
     display: block; /* Standard block layout for smaller screens */
   }
 
-  main, #footer {
+  main, footer {
     width: 100%; /* Full width for main and footer */
-    margin: 20px; /* Add some margin around the content */
+    margin: px; /* Add some margin around the content */
     box-sizing: border-box; /* Ensure padding and borders are included in the width */
   }
   
@@ -1281,15 +1281,22 @@ section,
 }
 
 
+
+.fixed-bottom-child {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding-bottom: 20px;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+     
+    
+}
+
+
 /*=================================*/
 
-.profile-img {
-  position: relative; /* Allows positioning relative to its normal location */
-  top: -20px; /* Moves the image up by 10px */
-  left: -20px; /* Moves the image to the left by 10px */
-  /* Alternatively, you can use transform instead of top/left */
-  /* transform: translate(-10px, -10px); */
-}
+
 /*---------------------------------------------My Addings----------------------------------------------------*/
 
 /* Popup container - can be anything you want */
