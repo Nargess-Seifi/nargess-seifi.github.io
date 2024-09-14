@@ -132,9 +132,48 @@ h6 {
   text-decoration: none;
 }
 
-#main {
-  margin-left: 300px;
+/*
+@media (min-width: 1200px) {
+
+  .header~main,
+  .header~#footer{
+    margin-left: 300px;
+  }
 }
+
+@media (max-width: 1199px) {
+  .header {
+    left: 300px;
+  }
+}
+
+
+*/
+
+
+.header .header-toggle {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+  transition: background-color 0.3s;
+}
+
+.header .header-toggle:hover {
+  color: var(--contrast-color);
+  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+
 
 .container,
 .container-fluid {
@@ -142,14 +181,21 @@ h6 {
   padding-right: 30px;
 }
 
+/***********************/
 @media (max-width: 1199px) {
   #header {
     left: -300px;
   }
 
-  #main {
-    margin-left: 0;
+/*
+@media (max-width: 1199px) {
+  main{
+    left: -300px;
   }
+*/
+
+
+
 
   .container,
   .container-fluid {
@@ -243,95 +289,106 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 70% right;
-  height: 100vh ;
-  background: url("../img/pic1_bg.jpeg") top right;
-  background-size:  85%  ;
-background-repeat: no-repeat;
+.hero {
+ width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#hero:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+.hero img {
   position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: 1;
 }
 
-#hero .hero-container {
-  position: relative;
+.hero:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  position: absolute;
+  inset: 0;
   z-index: 2;
-  min-width: 300px;
 }
 
-@media only screen and (max-width: 1200px){
-  #hero {
-    width: 100%;
-    height: 100vh ;
-    background: url("../img/pic1_bg.jpeg") top;
-    background-size:  100%  ;
-  background-repeat: no-repeat;
-  }
+.hero .container {
+  position: relative;
+  z-index: 3;
 }
 
-#hero h1 {
-  margin: 0 0 10px 0;
+.hero h2 {
+  margin: 0;
   font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
-  color: #fff;
 }
 
-#hero p {
-  color: #fff;
-  margin-bottom: 50px;
+.hero p {
+  margin: 5px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
-  color: #fff;
-  padding-bottom: 4px;
+.hero p span {
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 2px solid var(--accent-color);
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
+.hero .social-links {
+  margin-top: 25px;
+}
+
+.hero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.hero .social-links a:hover {
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+  .hero h2 {
+    font-size: 32px;
   }
 
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+
+  .hero p {
+    font-size: 20px;
   }
 }
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
   padding: 60px 0;
-  overflow: hidden;
+  overflow: clip;
 }
-
 .section-bg {
   background: #f5f8fd;
 }
 
 .section-title {
   padding-bottom: 30px;
+}
+
+.dark-background {
+  --background-color: #040b14;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #151f2b;
+  --contrast-color: #ffffff;
 }
 
 .section-title h2 {
@@ -1114,11 +1171,13 @@ section {
   color: #0e2442;
   content: "/";
 }
+/*
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+*/
 
   .breadcrumbs ol {
     display: block;
@@ -1155,6 +1214,7 @@ section {
   color: #eaebf0;
 }
 
+/*
 @media (max-width: 1199px) {
   #footer {
     position: static;
@@ -1163,6 +1223,73 @@ section {
   }
 }
 
+*/
+
+/*=================================*/
+
+/* For screens 1200px and wider */
+@media (min-width: 1200px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* 300px empty on the left, 1fr fills the rest */
+  }
+
+  .header {
+    grid-column: 1 / 2; /* Placeholder for the 300px empty space */
+  }
+
+  main {
+    grid-column: 2 / 3; /* Main content in the second column */
+    width: 100%; /* Fills remaining space */
+    margin: 20px; /* Add margin around the content */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+
+  #footer {
+    grid-column: 2 / 3; /* Footer aligns with the main content */
+    width: 100%; /* Fills remaining space */
+    margin: 20px; /* Add margin to footer */
+    box-sizing: border-box;
+  }
+}
+
+/* For screens smaller than 1200px */
+@media (max-width: 1199px) {
+  body {
+    display: block; /* Standard block layout for smaller screens */
+  }
+
+  main, #footer {
+    width: 100%; /* Full width for main and footer */
+    margin: 20px; /* Add some margin around the content */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+  
+  .header {
+    display: none; /* Hide the header (or sidebar) for small screens */
+  }
+}
+
+/* Show header when the class 'header-show' is active */
+.header-show {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh; /* Full height on small screens */
+}
+
+
+/*=================================*/
+
+.profile-img {
+  position: relative; /* Allows positioning relative to its normal location */
+  top: -20px; /* Moves the image up by 10px */
+  left: -20px; /* Moves the image to the left by 10px */
+  /* Alternatively, you can use transform instead of top/left */
+  /* transform: translate(-10px, -10px); */
+}
 /*---------------------------------------------My Addings----------------------------------------------------*/
 
 /* Popup container - can be anything you want */
@@ -1230,3 +1357,4 @@ section {
 <div class="popup" onclick="myFunction()">Click me to toggle the popup!
   <span class="popuptext" id="myPopup">A Simple Popup!</span>
 </div>
+
